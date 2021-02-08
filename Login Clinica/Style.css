@@ -1,0 +1,114 @@
+
+
+#page-container {
+    position: relative;
+    min-height: 60vh;
+}
+
+
+
+
+body {
+
+    background-image: url(fondo_inicio_sesion.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    font-family: helvetica;
+
+}
+
+.main_Box{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-10%,-30%);
+
+
+
+}
+
+.loginbox {
+
+    background: rgba(255,255,255);
+    color: #000;
+    padding: 125px 30px;
+    /*box-sizing: border-box;*/
+    width: 460px;
+    height: 485px;
+    text-align: center;
+    z-index:2;
+
+}
+
+.loginSideBox{
+    height: 485px;
+    background: #43b1a8;
+    transform: translate(-107%,-78%);
+    opacity: 0.5;
+    z-index:-1;
+}
+
+
+.loginbox input[type ="text"], .loginbox input[type ="password"] {
+    text-align: left;
+    /*border-radius: 9px;*/
+    padding: 8px;
+    background-color: #ffff;
+    border: none;
+    width: 410px;
+}
+
+
+LogoClinica{
+    transform: translateY(160%);
+    /*width: 50px;*/
+    /*height: 50px;*/
+
+}
+.input_Bar{
+    background-color: black;
+    width: 410px;
+    padding: -5px
+}
+
+.loginbox input[type ="submit"] {
+    text-align: center;
+    transform: translateY(55px);
+    padding: 5px;
+    height: 50px;
+    width: 400px;
+    color: white;
+    background: linear-gradient(
+            15deg, #027771,
+            #4ad4cc
+    );
+    border-top-width: 1px;
+    border-top-color: black;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: black;
+    border-left-width: 1px;
+    border-left-color: black;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    /*box-shadow: 0 0 0 1px rgba((0 0 0, 15%), 2px 2px 3px 0 rgba(0 0 0, 10%);*/
+}
+
+
+.checkboxes {
+    transform: translateY(70%);
+    text-align: right;
+    font-size: 13px;
+    color: gray;
+}
+
+
+.rstPaswd {
+
+    transform: translateY(75px);
+    font-size: 14px;
+    color:black;
+}
